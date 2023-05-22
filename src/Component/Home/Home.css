@@ -1,0 +1,39 @@
+.main {
+    background: linear-gradient(to bottom, #6c63ff, #ba54f5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+  }
+  
+  .user-card {
+    width: 100%; /* Adjust the width as per your preference */
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+  
+  h1 {
+    font-size: rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+
+  .card-list {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+
+    

@@ -1,0 +1,43 @@
+.sidebar-main {
+  background: linear-gradient(to bottom, #3e47ec, #6138b9);
+  width: 90%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages {
+  display: flex;
+  align-items: right;
+  flex-direction: column;
+  font-size: 16px;
+  color:rgb(163, 162, 162);
+  margin-bottom: 10px;
+  gap: 1rem;
+  font-size: large;
+}
+
+.pages .BORDER-l {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+.pages:hover{
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .sidebar-main {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .pages {
+    font-size: 14px;
+  }
+}

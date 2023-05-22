@@ -1,0 +1,115 @@
+.UserProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .UserData {
+    padding: 1rem;
+  
+  }
+  
+  .ProfileImage {
+    width: 60%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 3rem;
+  }
+  
+  .Profile-Image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin: 0.5em 0;
+    font-size: 1.2rem;
+  }
+  
+  .details,
+  .C_details  {
+    color: gray;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  .C_details{
+    margin-left: 1rem;
+  }
+  
+  .data {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .Border-l {
+    justify-self: center;
+    width: 80%;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 0.5rem;
+  }
+
+  .Company{
+    padding: rem;
+    color: gray;
+  }
+  .Title {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .userAddress{
+    font-size: 1.3rem;
+    color: gray;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .AddressDetails{
+    padding-left: 3rem !important;
+  }
+ .iframe{
+  width: 100%;
+  height: 18rem;
+  border-radius: 1rem;
+ }
+ .location{
+  display: flex;
+  justify-content: right;
+  padding-top: 0.2rem;
+  font-size: small;
+  gap: 1rem;
+ }
+ .lat,
+ .lng{
+  color: gray;
+  
+ }
+.lats,
+.lngs{
+  color: black;
+  font-weight: 500;
+}  
+  @media (max-width: 768px) {
+    .UserProfile {
+      padding: 0.5rem;
+    }
+  
+    .ProfileImage {
+      width: 70%;
+      max-width: 200px;
+      height: auto;
+    }
+  
+    .name {
+      font-size: 1.2rem;
+    }
+  
+    .Title {
+      font-size: 1rem;
+    }
+  }
+  

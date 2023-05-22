@@ -1,0 +1,74 @@
+.Section2-Header {
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+
+/* .heading {
+  margin-bottom: 10px;
+} */
+
+.dropdown-profile {
+  position: absolute;
+  top: calc(100% + 3.3rem);
+  right: 0;
+  transform: translateX(0%);
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-profile:hover .dropdown-content {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* .dropdown-content p {
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .dropdown-content p:hover {
+  background-color: lightgray;
+  cursor: pointer;
+} */
+.dropimage{
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-self: center;
+}
+.email{
+  font-size: 13px;
+  color: gray;
+}
+.border-L{
+justify-self: center;
+width: 80%;
+height: 1px;
+background-color: #ccc;
+margin-bottom: 0.5rem;
+margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .dropdown-profile {
+    right: 1rem;
+    width: 10rem;
+  }
+}
